@@ -128,6 +128,19 @@
 	h4 {
 		font-weight: 700;
 	}
+
+	header nav > div + div {
+		@apply border-l border-grey-5;
+	}
+	header nav > div > div {
+		@apply mx-2 rounded border border-transparent px-3 py-2 hover:bg-white/20;
+	}
+	header nav > div > div.active {
+		@apply border-white bg-white/20;
+	}
+	header nav a {
+		@apply flex items-center gap-1.5 text-white! no-underline;
+	}
 }
 
 @utility container {

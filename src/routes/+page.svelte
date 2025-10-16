@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { resolve } from '$app/paths'
+
 	import NACCLogo from '$lib/assets/images/nacc_logo.svg'
 	import SARPLogo from '$lib/assets/images/sarp_logo.png'
 	import NFHPLogo from '$lib/assets/images/nfhp_logo.svg'
@@ -147,7 +149,7 @@
 				surveys. It provides essential information about the location, status, and characteristics
 				of potential aquatic barriers.
 				<br /><br />
-				<a href="/inventory">Learn more about the inventory</a>.
+				<a href={resolve('/inventory')}>Learn more about the inventory</a>.
 			</p>
 		</div>
 
@@ -171,7 +173,7 @@
 				across organizations and jurisdictions, partners work together to identify, prioritize, and
 				implement barrier removal projects.
 				<br /><br />
-				<a href="/teams">Learn more about Aquatic Connectivity Teams</a>.
+				<a href={resolve('/teams')}>Learn more about Aquatic Connectivity Teams</a>.
 			</p>
 		</div>
 	</div>

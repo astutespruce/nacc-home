@@ -15,6 +15,10 @@
 	const total_road_barriers = unsurveyed_road_crossings + total_small_barriers
 </script>
 
+<svelte:head>
+	<title>National Aquatic Barrier Inventory | National Aquatic Connectivity Collaborative</title>
+</svelte:head>
+
 <div class="max-h-[16rem] overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/zack-dutra-2d7Y5Yi3aq8-unsplash.jpg" />
 
@@ -28,10 +32,13 @@
 </div>
 
 <div class="container mt-8">
-	<h1 class="text-3xl md:text-4xl lg:text-5xl py-4 flex items-center gap-4">
+	<h1 class="py-4 flex items-center gap-4">
 		<img src={InventoryIcon} alt="Inventory icon" class="h-20" />
 
-		Aquatic Barrier Inventory
+		<div>
+			<div class="text-2xl italic">National</div>
+			<div class="text-3xl md:text-4xl lg:text-5xl">Aquatic Barrier Inventory</div>
+		</div>
 	</h1>
 </div>
 

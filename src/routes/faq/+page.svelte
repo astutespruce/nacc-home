@@ -11,6 +11,10 @@
 	}
 </script>
 
+<svelte:head>
+	<title>FAQ | National Aquatic Connectivity Collaborative</title>
+</svelte:head>
+
 <div class="max-h-[16rem] overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/kazuend-cCthPLHmrzI-unsplash.jpg" />
 

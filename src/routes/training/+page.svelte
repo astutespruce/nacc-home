@@ -3,6 +3,10 @@
 	import { CONTACT_EMAIL } from '$lib/env'
 </script>
 
+<svelte:head>
+	<title>Data Collection Protocol Training | National Aquatic Connectivity Collaborative</title>
+</svelte:head>
+
 <div class="max-h-[16rem] overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/21854400142_f959bbc579_o.jpg" />
 

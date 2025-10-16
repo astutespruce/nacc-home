@@ -5,6 +5,10 @@
 	import TNCLogo from '$lib/assets/images/tnc_logo.svg'
 </script>
 
+<svelte:head>
+	<title>Aquatic Connectivity Teams | National Aquatic Connectivity Collaborative</title>
+</svelte:head>
+
 <div class="max-h-[16rem] overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/30557776285_90ce5f6683_6k.jpg" />
 
