@@ -19,6 +19,9 @@ const config = {
 		}),
 		paths: {
 			base: process.env.DEPLOY_PATH || ''
+		},
+		alias: {
+			$data: process.env.TOOL_UI_DATA_PATH || '../sarp-connectivity/ui/data'
 		}
 	}
 }

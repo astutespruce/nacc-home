@@ -1,7 +1,7 @@
 <footer
-	class="flex-none leading-none bg-blue-9 flex items-center justify-between py-1 pl-1 pr-4 text-[0.8rem] gap-6"
+	class="flex-none leading-none bg-blue-9 flex items-center justify-between p-2 text-[0.8rem] gap-6"
 >
-	<div class="flex-auto flex gap-6">
+	<div class="flex-auto flex gap-6 [&>a+a]:border-l [&>a+a]:border-grey-4 [&>a+a]:pl-6">
 		<a
 			href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"
 			class="block text-white no-underline hover:underline"
