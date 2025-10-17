@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="max-h-[16rem] overflow-hidden relative">
-	<enhanced:img src="$lib/assets/images/30557776285_90ce5f6683_6k.jpg" />
+	<enhanced:img src="$lib/assets/images/30557776285_90ce5f6683_6k.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: Biologists collect and move fish from a de-watered river reach as part of Cane River Dam

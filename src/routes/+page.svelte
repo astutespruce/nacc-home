@@ -56,14 +56,14 @@
 			<b>National Aquatic Connectivity Collaborative</b> helps bring together the best available
 			information on aquatic barriers and the community of practice to help identify barriers of
 			interest for restoration efforts. Under this national effort, recently improved inventories
-			and data collection tools, brought to you by the{' '}
+			and data collection tools, brought to you by the
 			<a href="https://www.fishhabitat.org/" target="_blank">National Fish Habitat Partnership</a>,
 			<a
 				href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"
 				target="_blank"
 			>
 				Southeast Aquatic Resources Partnership
-			</a>{' '}
+			</a>
 			(SARP), and partners, enable us to survey, describe, understand, and prioritize aquatic barriers
 			for removal, restoration, and mitigation.
 		</p>
@@ -82,24 +82,23 @@
 	</div>
 
 	<p class="mt-16">
-		The <b>National Aquatic Connectivity Collaborative</b> is made possible by funding from the{' '}
+		The <b>National Aquatic Connectivity Collaborative</b> is made possible by funding from the
 		<a href="https://www.fws.gov/program/national-fish-passage" target="_blank">
 			U.S. Fish and Wildlife Service
 		</a>
-		,{' '}
+		,
 		<a href="https://www.americanrivers.org/" target="_blank"> American Rivers </a>
-		, the{' '}
+		, the
 		<a href="https://www.nfwf.org/" target="_blank"> National Fish and Wildlife Foundation </a>
-		,{' '}
+		,
 		<a href="https://www.fs.usda.gov/" target="_blank">
 			U.S. Department of Agriculture, Forest Service
 		</a>
-		,{' '}
+		,
 		<a href="https://www.nature.org/" target="_blank"> The Nature Conservancy </a>
-		, <a href="https://www.tu.org/" target="_blank">Trout Unlimited</a>,{' '}
-		and state wildlife grant funding from Florida and Texas. This effort would not be possible without
-		the collaboration of our partners from numerous state, federal, and non profit organizations as well
-		as the{' '}
+		, <a href="https://www.tu.org/" target="_blank">Trout Unlimited</a>, and state wildlife grant
+		funding from Florida and Texas. This effort would not be possible without the collaboration of
+		our partners from numerous state, federal, and non profit organizations as well as the
 		<a href="https://www.fishhabitat.org/" target="_blank">National Fish Habitat Partnership</a>.
 	</p>
 
@@ -186,7 +185,7 @@
 			<h2 class="text-4xl">Get involved!</h2>
 			<p class="mt-4">
 				You can help improve the inventory by sharing data, assisting with field reconnaissance to
-				evaluate the impact of aquatic barriers, joining an{' '}
+				evaluate the impact of aquatic barriers, joining an
 				<a href="https://www.americanrivers.org/aquatic-connectivity-groups/" target="blank">
 					Aquatic Connectivity Team
 				</a>, or even by reporting issues with the inventory data in this tool.

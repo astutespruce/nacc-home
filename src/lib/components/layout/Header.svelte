@@ -9,8 +9,6 @@
 	import SearchLocation from '~icons/fa-solid/search-location'
 	import Users from '~icons/fa-solid/users'
 
-	import { cn } from '$lib/utils'
-
 	import { PRIORITZATION_TOOL_URL } from '$lib/env'
 
 	import Logo from '$lib/assets/images/nacc_logo_white.svg'

@@ -16,7 +16,7 @@
 </svelte:head>
 
 <div class="max-h-[16rem] overflow-hidden relative">
-	<enhanced:img src="$lib/assets/images/kazuend-cCthPLHmrzI-unsplash.jpg" />
+	<enhanced:img src="$lib/assets/images/kazuend-cCthPLHmrzI-unsplash.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: <a
@@ -247,13 +247,13 @@
 					and waterfalls.
 				</li>
 				<li>
-					<a href={MAP_SERVICES.small_barriers} target="_blank"> Assessed road crossings </a>{' '}
+					<a href={MAP_SERVICES.small_barriers} target="_blank"> Assessed road crossings </a>
 					based on networks that are cut by dams, waterfalls, and assessed crossings.
 				</li>
 				<li>
 					<a href={MAP_SERVICES.combined_barriers} target="_blank">
 						Dams and assessed road crossings
-					</a>{' '}
+					</a>
 					based on networks that are cut by dams, waterfalls, and assessed crossings.
 				</li>
 			</ul>
