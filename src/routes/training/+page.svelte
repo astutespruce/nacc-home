@@ -34,7 +34,7 @@
 				href="https://streamcontinuity.org/"
 				target="_blank">North Atlantic Aquatic Connectivity Collaborative</a
 			>
-			(NAACC) to measure road stream crossings in the field . This includes protocols for non-tidal streams,
+			(NAACC) to measure road/stream crossings in the field . This includes protocols for non-tidal streams,
 			tidal streams, culvert condition, and passage by terrestrial species.
 			<br /><br />
 			<b>

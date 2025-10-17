@@ -1,7 +1,10 @@
 {
 	"name": "nacc-home",
-	"private": true,
-	"version": "0.0.1",
+	"version": "0.1.0",
+	"description": "National Aquatic Connectivity Collaborative",
+	"author": "Brendan C. Ward <bcward@astutespruce.com>",
+	"license": "MIT",
+	"private": false,
 	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
@@ -11,7 +14,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint ."
+		"lint": "prettier --check . && eslint .",
+		"predeploy": "npm run build",
+		"deploy": "rm -rf /var/www/nacc-home/* && cp -r public/* /var/www/nacc-home"
 	},
 	"dependencies": {
 		"@iconify-json/fa-regular": "^1.2.2",
@@ -46,5 +51,12 @@
 		"prettier": "^3.6.2",
 		"prettier-plugin-tailwindcss": "^0.6.14",
 		"typescript-eslint": "^8.44.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/astutespruce/nacc-home"
+	},
+	"bugs": {
+		"url": "https://github.com/astutespruce/nacc-home/issues"
 	}
 }

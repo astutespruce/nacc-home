@@ -67,7 +67,7 @@
 					href="https://streamcontinuity.org/"
 					target="_blank">North Atlantic Aquatic Connectivity Collaborative</a
 				>
-				(NAACC) and partners to assess road stream crossings for aquatic and terrestrial organism passage
+				(NAACC) and partners to assess road/stream crossings for aquatic and terrestrial organism passage
 				within the northeastern United States. In 2015, SARP adopted the NAACC protocol and expanded
 				it to other states in the nation under a separate database and training system. Under this new
 				National umbrella, NAACC data will be collected across the country using the same protocols within

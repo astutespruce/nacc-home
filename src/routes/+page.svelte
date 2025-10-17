@@ -38,11 +38,12 @@
 		Fragmentation prevents species from dispersing and accessing habitats required for their
 		persistence through changing conditions.
 		<br /><br />
-		The National Aquatic Connectivity Collaborative (NACC) is a national effort to build a community
-		of practice of resource management partners working together to identify aquatic barriers, prioritize
-		these barriers for removal or mitigation, and implement barrier removal projects across political
-		boundaries. One aspect of this collaborative is field survey of road crossing barriers to populate
-		the larger National Aquatic Barrier Inventory, using a standardized protocol developed by the
+		The <b>National Aquatic Connectivity Collaborative</b> (NACC) is a national effort to build a
+		community of practice of resource management partners working together to identify aquatic
+		barriers, prioritize these barriers for removal or mitigation, and implement barrier removal
+		projects across political boundaries. One aspect of this collaborative is field survey of road
+		crossing barriers to populate the larger National Aquatic Barrier Inventory, using a
+		standardized protocol developed by the
 		<a href="https://streamcontinuity.org/" target="_blank"
 			>North Atlantic Aquatic Connectivity Collaborative</a
 		> (NAACC). In 2015, the Southeast Aquatic Resources Partnership (SARP) adopted the NAACC protocol
@@ -51,8 +52,11 @@
 	</p>
 	<div class="block sm:grid grid-cols-[1fr_200px] gap-8 mt-8 items-center">
 		<p class="text-xl">
-			Under this national effort, recently improved inventories and data collection tools, brought
-			to you by the{' '}
+			The
+			<b>National Aquatic Connectivity Collaborative</b> helps bring together the best available
+			information on aquatic barriers and the community of practice to help identify barriers of
+			interest for restoration efforts. Under this national effort, recently improved inventories
+			and data collection tools, brought to you by the{' '}
 			<a href="https://www.fishhabitat.org/" target="_blank">National Fish Habitat Partnership</a>,
 			<a
 				href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"
@@ -61,10 +65,7 @@
 				Southeast Aquatic Resources Partnership
 			</a>{' '}
 			(SARP), and partners, enable us to survey, describe, understand, and prioritize aquatic barriers
-			for removal, restoration, and mitigation. The
-			<b>National Aquatic Connectivity Collaborative</b> helps bring together the best available information
-			on aquatic barriers and the community of practice to help identify barriers of interest for restoration
-			efforts.
+			for removal, restoration, and mitigation.
 		</p>
 		<div class="my-8 sm:my-0 flex flex-col items-center sm:items-end gap-5">
 			<a href="https://fishhabitat.org/" target="_blank" class="block">
@@ -80,7 +81,7 @@
 		</div>
 	</div>
 
-	<p class="mt-8">
+	<p class="mt-16">
 		The <b>National Aquatic Connectivity Collaborative</b> is made possible by funding from the{' '}
 		<a href="https://www.fws.gov/program/national-fish-passage" target="_blank">
 			U.S. Fish and Wildlife Service
@@ -102,7 +103,7 @@
 		<a href="https://www.fishhabitat.org/" target="_blank">National Fish Habitat Partnership</a>.
 	</p>
 
-	<div class="flex flex-wrap items-center justify-between mt-8 gap-4">
+	<div class="flex flex-wrap items-center justify-between mt-2 gap-4">
 		<div class="flex-none mt-4">
 			<a href="https://www.fws.gov/program/national-fish-passage" target="_blank">
 				<img src={USFWSLogo} alt="USFWS logo" class="h-[96px]" />

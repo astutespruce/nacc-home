@@ -139,9 +139,9 @@
 			>
 			(NAACC). These data are regularly updated in the inventory.
 			<br /><br />
-			To begin in early 2026, field surveys coordinated and housed under the current NAACC protocol system
-			will be consolidated under the new National Aquatic Connectivity Collaborative and available at
-			this site.
+			Beginning in early 2026, field surveys coordinated and housed under the current NAACC protocol
+			system will be consolidated under the new National Aquatic Connectivity Collaborative and available
+			at this site.
 		</p>
 		<div>
 			<enhanced:img
