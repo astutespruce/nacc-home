@@ -41,7 +41,7 @@
 		The <b>National Aquatic Connectivity Collaborative</b> (NACC) is a national effort to build a
 		community of practice of resource management partners working together to identify aquatic
 		barriers, prioritize these barriers for removal or mitigation, and implement barrier removal
-		projects across political boundaries. One aspect of this collaborative is field survey of road
+		projects across political boundaries. One aspect of this collaborative is field surveys of road
 		crossing barriers to populate the larger National Aquatic Barrier Inventory, using a
 		standardized protocol developed by the
 		<a href="https://streamcontinuity.org/" target="_blank"
