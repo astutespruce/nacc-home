@@ -30,11 +30,11 @@
 	<div class="mt-8 grid grid-cols-[2fr_1fr] gap-4">
 		<p class="text-xl">
 			While data collected using multiple protocols exist within the National Inventory, the NACC
-			supports a standardized protocol originally developed by the <a
+			supports standardized protocols originally developed by the <a
 				href="https://streamcontinuity.org/"
 				target="_blank">North Atlantic Aquatic Connectivity Collaborative</a
 			>
-			(NAACC) to measure road/stream crossings in the field . This includes protocols for non-tidal streams,
+			(NAACC) to measure road/stream crossings in the field. This includes protocols for non-tidal streams,
 			tidal streams, culvert condition, and passage by terrestrial species.
 			<br /><br />
 			<b>
@@ -61,9 +61,5 @@
 				>
 			</div>
 		</div>
-	</div>
-
-	<div class="grid grid-cols-[2fr_1fr] gap-4">
-		<p class="text-xl"></p>
 	</div>
 </div>
