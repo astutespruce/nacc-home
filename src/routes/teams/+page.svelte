@@ -14,7 +14,7 @@
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: Biologists collect and move fish from a de-watered river reach as part of Cane River Dam
-		removal, 2016<a
+		removal, 2016 | <a
 			href="https://www.flickr.com/photos/usfwssoutheast/30557776285/"
 			target="_blank"
 			class="text-white no-underline hover:underline"
