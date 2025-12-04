@@ -4,11 +4,6 @@
 	import NACCLogo from '$lib/assets/images/nacc_logo.svg'
 	import SARPLogo from '$lib/assets/images/sarp_logo.png'
 	import NFHPLogo from '$lib/assets/images/nfhp_logo.svg'
-	import AmericanRiversLogo from '$lib/assets/images/american_rivers_logo.svg'
-	import TNCLogo from '$lib/assets/images/tnc_logo.svg'
-	import TULogo from '$lib/assets/images/trout_unlimited_logo.svg'
-	import USFSLogo from '$lib/assets/images/usfs_logo.svg'
-	import USFWSLogo from '$lib/assets/images/usfws_logo.svg'
 	import { CONTACT_EMAIL, PRIORITZATION_TOOL_URL } from '$lib/env'
 </script>
 
@@ -77,57 +72,6 @@
 				class="block"
 			>
 				<img src={SARPLogo} alt="SARP logo" class="w-[190px]" />
-			</a>
-		</div>
-	</div>
-
-	<p class="mt-16">
-		The <b>National Aquatic Connectivity Collaborative</b> is made possible by funding from the
-		<a href="https://www.fws.gov/program/national-fish-passage" target="_blank">
-			U.S. Fish and Wildlife Service
-		</a>
-		,
-		<a href="https://www.americanrivers.org/" target="_blank"> American Rivers </a>
-		, the
-		<a href="https://www.nfwf.org/" target="_blank"> National Fish and Wildlife Foundation </a>
-		,
-		<a href="https://www.fs.usda.gov/" target="_blank">
-			U.S. Department of Agriculture, Forest Service
-		</a>
-		,
-		<a href="https://www.nature.org/" target="_blank"> The Nature Conservancy </a>
-		, <a href="https://www.tu.org/" target="_blank">Trout Unlimited</a>, and state wildlife grant
-		funding from Florida and Texas. This effort would not be possible without the collaboration of
-		our partners from numerous state, federal, and non profit organizations as well as the
-		<a href="https://www.fishhabitat.org/" target="_blank">National Fish Habitat Partnership</a>.
-	</p>
-
-	<div class="flex flex-wrap items-center justify-between mt-2 gap-4">
-		<div class="flex-none mt-4">
-			<a href="https://www.fws.gov/program/national-fish-passage" target="_blank">
-				<img src={USFWSLogo} alt="USFWS logo" class="h-[96px]" />
-			</a>
-		</div>
-		<div class="flex-none mt-4">
-			<a href="https://www.fs.usda.gov/" target="_blank">
-				<img src={USFSLogo} alt="USFS logo" class="h-[96px]" />
-			</a>
-		</div>
-		<div class="flex-none mt-4">
-			<a href="https://www.nature.org/" target="_blank">
-				<img src={TNCLogo} alt="TNC logo" class="w-[150px]" />
-			</a>
-		</div>
-
-		<div class="flex-none mt-4">
-			<a href="https://www.americanrivers.org/" target="_blank">
-				<img src={AmericanRiversLogo} alt="American Rivers logo" class="w-[140px]" />
-			</a>
-		</div>
-
-		<div class="flex-none mt-4">
-			<a href="https://www.tu.org/" target="_blank">
-				<img src={TULogo} alt="Trout Unlimited logo" class="h-[80px]" />
 			</a>
 		</div>
 	</div>
