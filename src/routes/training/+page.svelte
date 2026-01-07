@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ClipboardCheck from '~icons/fa-solid/clipboard-check'
+	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
 	import { CONTACT_EMAIL } from '$lib/env'
 </script>
 
@@ -19,11 +19,11 @@
 	</div>
 </div>
 
-<div class="container mt-8">
+<div class="container mt-8 pb-8">
 	<h1
 		class="text-3xl md:text-4xl lg:text-5xl py-4 flex items-center gap-4 border-b border-b-grey-5"
 	>
-		<ClipboardCheck class="w-12 h-12 text-grey-8" />
+		<TrainingIcon class="size-12 text-grey-8" />
 
 		Data Collection Protocol Training
 	</h1>

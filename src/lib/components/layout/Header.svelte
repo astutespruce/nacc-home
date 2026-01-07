@@ -3,11 +3,11 @@
 	import { resolve } from '$app/paths'
 	import { page } from '$app/state'
 
-	import QuestionCircle from '~icons/fa-solid/question-circle'
-	import ClipboardCheck from '~icons/fa-solid/clipboard-check'
-	import RulerVertical from '~icons/fa-solid/ruler-vertical'
-	import SearchLocation from '~icons/fa-solid/search-location'
-	import Users from '~icons/fa-solid/users'
+	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
+	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
+	import InventoryIcon from '@lucide/svelte/icons/pencil-ruler'
+	import PrioritizationToolIcon from '@lucide/svelte/icons/search-check'
+	import UsersIcon from '@lucide/svelte/icons/users'
 
 	import { PRIORITZATION_TOOL_URL } from '$lib/env'
 
@@ -22,11 +22,7 @@
 	<div class="flex-auto flex gap-3 items-center">
 		<div class="flex-none">
 			<a href={resolve('/')} class="no-underline">
-				<img
-					src={Logo}
-					class="h-[2.5rem] my-[1px]"
-					alt="National Aquatic Connectivity Collaborative logo"
-				/>
+				<img src={Logo} class="h-10 my-px" alt="National Aquatic Connectivity Collaborative logo" />
 			</a>
 		</div>
 		<div>
@@ -40,7 +36,7 @@
 		<div>
 			<div class={isActivePath('/inventory/') ? 'active' : null}>
 				<a href={resolve('/inventory/')}>
-					<RulerVertical class="w-4" />
+					<InventoryIcon class="size-6" />
 					Inventory
 				</a>
 			</div>
@@ -48,7 +44,7 @@
 		<div>
 			<div>
 				<a href={PRIORITZATION_TOOL_URL} target="_blank">
-					<SearchLocation class="w-4" />
+					<PrioritizationToolIcon class="size-6" />
 
 					<div class="xl:hidden">Tool</div>
 					<div class="hidden xl:block">Prioritization Tool</div>
@@ -58,7 +54,7 @@
 		<div>
 			<div class={isActivePath('/teams/') ? 'active' : null}>
 				<a href={resolve('/teams/')}>
-					<Users class="w-5" />
+					<UsersIcon class="size-6" />
 					Teams</a
 				>
 			</div>
@@ -66,7 +62,7 @@
 		<div>
 			<div class={isActivePath('/training/') ? 'active' : null}>
 				<a href={resolve('/training/')}>
-					<ClipboardCheck class="w-4" />
+					<TrainingIcon class="size-6" />
 					Training</a
 				>
 			</div>
@@ -74,7 +70,7 @@
 		<div>
 			<div class={isActivePath('/faq/') ? 'active' : null}>
 				<a href={resolve('/faq/')}>
-					<QuestionCircle class="w-4" />
+					<FAQIcon class="size-6" />
 					FAQ</a
 				>
 			</div>

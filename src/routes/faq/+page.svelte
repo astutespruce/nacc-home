@@ -1,5 +1,5 @@
 <script lang="ts">
-	import QuestionCircle from '~icons/fa-regular/question-circle'
+	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
 	import { CONTACT_EMAIL, PRIORITZATION_TOOL_URL } from '$lib/env'
 
 	const MAP_SERVICES = {
@@ -31,7 +31,7 @@
 	<h1
 		class="text-3xl md:text-4xl lg:text-5xl py-4 flex items-center gap-4 border-b border-b-grey-5"
 	>
-		<QuestionCircle class="h-20 w-20 text-grey-8" />
+		<FAQIcon class="size-20 text-grey-8" />
 		Frequently Asked Questions
 	</h1>
 
