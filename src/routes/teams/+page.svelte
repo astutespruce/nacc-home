@@ -9,7 +9,7 @@
 	<title>Aquatic Connectivity Teams | National Aquatic Connectivity Collaborative</title>
 </svelte:head>
 
-<div class="max-h-[16rem] overflow-hidden relative">
+<div class="max-h-64 overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/30557776285_90ce5f6683_6k.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
@@ -17,6 +17,7 @@
 		removal, 2016 | <a
 			href="https://www.flickr.com/photos/usfwssoutheast/30557776285/"
 			target="_blank"
+			rel="external"
 			class="text-white no-underline hover:underline"
 			>U.S. Fish & Wildlife Service Southeast Region</a
 		>
@@ -31,7 +32,7 @@
 
 		Aquatic Connectivity Teams
 	</h1>
-	<div class="grid grid-cols-[1.5fr_1fr] gap-8 mt-8">
+	<div class="grid sm:grid-cols-[1.5fr_1fr] gap-8 mt-8">
 		<p class="text-xl">
 			Aquatic connectivity teams and other aquatic connectivity collaboratives make barrier removal
 			projects a reality. By combining efforts across organizations and jurisdictions, partners work
@@ -75,19 +76,20 @@
 					<a
 						href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"
 						target="_blank"
+						rel="external"
 					>
 						<img src={SARPLogo} alt="SARP logo" class="max-w-[132px]" />
 					</a>
 				</div>
 
 				<div>
-					<a href="https://www.americanrivers.org/" target="_blank">
+					<a href="https://www.americanrivers.org/" target="_blank" rel="external">
 						<img src={AmericanRiversLogo} alt="American Rivers logo" class="" />
 					</a>
 				</div>
 
 				<div>
-					<a href="https://www.nature.org/" target="_blank">
+					<a href="https://www.nature.org/" target="_blank" rel="external">
 						<img src={TNCLogo} alt="TNC logo" class="" />
 					</a>
 				</div>
@@ -97,7 +99,11 @@
 
 	<p class="text-xl mt-12">
 		To learn more about Aquatic connectivity teams or to join one in your state, go to the
-		<a href="https://www.americanrivers.org/aquatic-connectivity-groups/" target="_blank">
+		<a
+			href="https://www.americanrivers.org/aquatic-connectivity-groups/"
+			target="_blank"
+			rel="external"
+		>
 			Aquatic Connectivity Groups</a
 		> page managed by American Rivers.
 	</p>
@@ -127,7 +133,9 @@
 
 	<hr />
 
-	<div class="grid grid-cols-3 gap-2 [&>div]:max-h-[10rem] [&>div]:overflow-hidden">
+	<div
+		class="grid sm:grid-cols-3 gap-2 [&_img]:h-64 [&_img]:w-auto sm:[&_img]:h-auto sm:[&>div]:max-h-40 [&>div]:overflow-hidden"
+	>
 		<div>
 			<enhanced:img
 				src="$lib/assets/images/Arkansas_team.jpg"
@@ -138,20 +146,14 @@
 			<enhanced:img
 				src="$lib/assets/images/Georgia_team.jpg"
 				alt="Georgia Aquatic Connectivity Team"
-				class="mt-[-1rem]"
+				class="-mt-4"
 			/>
 		</div>
-		<!-- <div>
-			<enhanced:img
-				src="$lib/assets/images/South_Carolina_team.jpg"
-				alt="South Carolina Aquatic Connectivity Team"
-			/>
-		</div> -->
 		<div>
 			<enhanced:img
 				src="$lib/assets/images/Tennessee_team.jpg"
 				alt="Tennessee Aquatic Connectivity Team"
-				class="mt-[-2rem]"
+				class="-mt-8"
 			/>
 		</div>
 	</div>

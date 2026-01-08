@@ -31,6 +31,7 @@
 					<a
 						href="https://www.flickr.com/photos/usfwssoutheast/25898720604/"
 						target="_blank"
+						rel="external"
 						class="text-white"
 					>
 						U.S. Fish & Wildlife Service Southeast Region</a

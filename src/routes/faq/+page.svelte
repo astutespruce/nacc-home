@@ -15,13 +15,14 @@
 	<title>FAQ | National Aquatic Connectivity Collaborative</title>
 </svelte:head>
 
-<div class="max-h-[16rem] overflow-hidden relative">
+<div class="max-h-64 overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/kazuend-cCthPLHmrzI-unsplash.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: <a
 			href="https://unsplash.com/photos/cCthPLHmrzI"
 			target="_blank"
+			rel="external"
 			class="text-white no-underline hover:underline">Kazuend</a
 		>
 	</div>
@@ -65,7 +66,8 @@
 			<p>
 				This effort builds on the years of investment by the <a
 					href="https://streamcontinuity.org/"
-					target="_blank">North Atlantic Aquatic Connectivity Collaborative</a
+					target="_blank"
+					rel="external">North Atlantic Aquatic Connectivity Collaborative</a
 				>
 				(NAACC) and partners to assess road/stream crossings for aquatic and terrestrial organism passage
 				within the northeastern United States. In 2015, SARP adopted the NAACC protocol and expanded
@@ -77,7 +79,7 @@
 				efforts to prioritize barriers and build partnerships/aquatic connectivity teams. Therefore,
 				the NAACC protocol will now be referred to as the NACC protocol. Until this new system is created,
 				NAACC data is uploaded into the existing NAACC system, it will be separately imported into the
-				<a href={PRIORITZATION_TOOL_URL} target="_blank">
+				<a href={PRIORITZATION_TOOL_URL} target="_blank" rel="external">
 					National Inventory and Prioritization Tool</a
 				>.
 			</p>
@@ -103,7 +105,11 @@
 
 				To learn about existing aquatic connectivity groups and teams in your area and to join a
 				group, visit the
-				<a href="https://www.americanrivers.org/aquatic-connectivity-groups/" target="_blank">
+				<a
+					href="https://www.americanrivers.org/aquatic-connectivity-groups/"
+					target="_blank"
+					rel="external"
+				>
 					Aquatic Connectivity Groups</a
 				> page managed by American Rivers.
 			</p>
@@ -134,10 +140,11 @@
 				<a
 					href="https://docs.google.com/document/d/1mUwk9rHukmY1D_NInxjdIxbBVfILD1Y8Xr-lMqjV4xU/edit?usp=sharing"
 					target="_blank"
+					rel="external"
 				>
 					this link
 				</a>. If you know of a data source we have not included, please fill out
-				<a href="https://forms.gle/5kWN3D56hSijLFrU6" target="_blank"> this form </a>
+				<a href="https://forms.gle/5kWN3D56hSijLFrU6" target="_blank" rel="external"> this form </a>
 				and we will contact you to ensure that it is included.
 			</p>
 		</div>
@@ -188,7 +195,7 @@
 			<h2>How can I download barriers for a specific area?</h2>
 			<p>
 				Use the
-				<a href={`${PRIORITZATION_TOOL_URL}/explore`} target="_blank">
+				<a href={`${PRIORITZATION_TOOL_URL}/explore`} target="_blank" rel="external">
 					<b>Explore &amp; Download</b>
 				</a>
 				page in the <b>Inventory & Prioritization Tool</b> to select one or more states, counties, or
@@ -203,11 +210,11 @@
 			<h2>How can I download all available barriers?</h2>
 			<p>
 				Use the download button on the bottom left of the
-				<a href={`${PRIORITZATION_TOOL_URL}/explore`} target="_blank">
+				<a href={`${PRIORITZATION_TOOL_URL}/explore`} target="_blank" rel="external">
 					<b>Explore &amp; Download</b>
 				</a>
 				page in the <b>Inventory & Prioritization Tool</b> or the
-				<a href={`${PRIORITZATION_TOOL_URL}/restoration`} target="_blank">
+				<a href={`${PRIORITZATION_TOOL_URL}/restoration`} target="_blank" rel="external">
 					<b>Restoration</b>
 				</a>
 				page to download all available dams and / or road-related barriers.
@@ -221,7 +228,8 @@
 			<p>
 				If your data was collected using the current NAACC system in the northeast, raw NAACC data
 				with structure measurements can be downloaded via the
-				<a href="https://naacc.org/naacc_data_center_home.cfm" target="_blank">NAACC Data Center</a
+				<a href="https://naacc.org/naacc_data_center_home.cfm" target="_blank" rel="external"
+					>NAACC Data Center</a
 				>. If your data was collected in partnership with SARP using the NAACC (now NACC) protocol,
 				<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a>for raw data, until the new merged system
 				is online. If your data was collected using a different methodology (Great Lakes Stream
@@ -243,15 +251,17 @@
 			</p>
 			<ul class="list-disc list-inside mt-2 [&>li+li]:mt-1">
 				<li>
-					<a href={MAP_SERVICES.dams} target="_blank">Dams</a> based on networks that are cut by dams
-					and waterfalls.
+					<a href={MAP_SERVICES.dams} target="_blank" rel="external">Dams</a> based on networks that
+					are cut by dams and waterfalls.
 				</li>
 				<li>
-					<a href={MAP_SERVICES.small_barriers} target="_blank"> Assessed road crossings </a>
+					<a href={MAP_SERVICES.small_barriers} target="_blank" rel="external">
+						Assessed road crossings
+					</a>
 					based on networks that are cut by dams, waterfalls, and assessed crossings.
 				</li>
 				<li>
-					<a href={MAP_SERVICES.combined_barriers} target="_blank">
+					<a href={MAP_SERVICES.combined_barriers} target="_blank" rel="external">
 						Dams and assessed road crossings
 					</a>
 					based on networks that are cut by dams, waterfalls, and assessed crossings.

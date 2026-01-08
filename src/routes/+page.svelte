@@ -39,7 +39,7 @@
 		projects across political boundaries. One aspect of this collaborative is field surveys of road
 		crossing barriers to populate the larger National Aquatic Barrier Inventory, using a
 		standardized protocol developed by the
-		<a href="https://streamcontinuity.org/" target="_blank"
+		<a href="https://streamcontinuity.org/" target="_blank" rel="external"
 			>North Atlantic Aquatic Connectivity Collaborative</a
 		> (NAACC). In 2015, the Southeast Aquatic Resources Partnership (SARP) adopted the NAACC protocol
 		and expanded it nationwide. As of 2025, this North Atlantic effort has merged with SARP, and is a
@@ -63,12 +63,13 @@
 			for removal, restoration, and mitigation.
 		</p>
 		<div class="my-8 sm:my-0 flex flex-col items-center sm:items-end gap-5">
-			<a href="https://fishhabitat.org/" target="_blank" class="block">
+			<a href="https://fishhabitat.org/" target="_blank" rel="external" class="block">
 				<img src={NFHPLogo} alt="National FIsh Habitat Partnership logo" class="w-[200px]" />
 			</a>
 			<a
 				href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"
 				target="_blank"
+				rel="external"
 				class="block"
 			>
 				<img src={SARPLogo} alt="SARP logo" class="w-[190px]" />
@@ -83,7 +84,7 @@
 	</h2>
 
 	<div
-		class="grid sm:grid-cols-3 gap-6 mt-6 [&>div]:bg-blue-1 [&>div]:rounded-2xl [&>div]:p-4 [&_h3]:border-b-4 [&_h3]:border-b-white [&_h3]:pb-2 [&_h3]:mb-2 [&_p]:leading-snug"
+		class="grid sm:grid-cols-3 gap-6 mt-6 [&>div]:bg-blue-1/50 [&>div]:rounded-2xl [&>div]:p-4 [&_h3]:border-b-4 [&_h3]:border-b-white [&_h3]:pb-2 [&_h3]:mb-2 [&_p]:leading-snug"
 	>
 		<div>
 			<h3 class="text-2xl">Inventory</h3>
@@ -105,8 +106,9 @@
 				actionable information to assist barrier removal projects.
 				<br /><br />
 				Go to the
-				<a href={PRIORITZATION_TOOL_URL} target="_blank">Inventory & Prioritization Tool</a> to download
-				and prioritize barriers for your area of interest.
+				<a href={PRIORITZATION_TOOL_URL} target="_blank" rel="external"
+					>Inventory & Prioritization Tool</a
+				> to download and prioritize barriers for your area of interest.
 			</p>
 		</div>
 

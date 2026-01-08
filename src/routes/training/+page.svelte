@@ -7,13 +7,14 @@
 	<title>Data Collection Protocol Training | National Aquatic Connectivity Collaborative</title>
 </svelte:head>
 
-<div class="max-h-[16rem] overflow-hidden relative">
+<div class="max-h-64 overflow-hidden relative">
 	<enhanced:img src="$lib/assets/images/21854400142_f959bbc579_o.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: <a
 			href="https://www.flickr.com/photos/mypubliclands/21854400142/in/album-72157659266694221"
 			target="_blank"
+			rel="external"
 			class="text-white no-underline hover:underline">BLM Oregon</a
 		>
 	</div>
@@ -27,12 +28,13 @@
 
 		Data Collection Protocol Training
 	</h1>
-	<div class="mt-8 grid grid-cols-[2fr_1fr] gap-4">
+	<div class="mt-8 grid sm:grid-cols-[2fr_1fr] gap-4">
 		<p class="text-xl">
 			While data collected using multiple protocols exist within the National Inventory, the NACC
 			supports standardized protocols originally developed by the <a
 				href="https://streamcontinuity.org/"
-				target="_blank">North Atlantic Aquatic Connectivity Collaborative</a
+				target="_blank"
+				rel="external">North Atlantic Aquatic Connectivity Collaborative</a
 			>
 			(NAACC) to measure road/stream crossings in the field. This includes protocols for non-tidal streams,
 			tidal streams, culvert condition, and passage by terrestrial species.
@@ -43,9 +45,9 @@
 			</b>
 			<br /><br />
 			We are currently developing a training system for the National Aquatic Connectivity Collaborative
-			based on the online trainings originally developed by the NAACC. Until that training system is
-			online, please complete these trainings using NAACC's existing training system if you are located
-			in the Northeast, or
+			based on the online trainings originally developed by the NAACC. Until that training system is online,
+			please complete these trainings using NAACC's existing training system if you are located in the
+			Northeast, or
 			<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a> for training outside the Northeast.
 			<br /><br />
 			We expect the new training system to be online in early 2026.
@@ -56,8 +58,10 @@
 				alt="field survey in Alaska"
 			/>
 			<div class="text-xs text-grey-8 text-right">
-				Photo: <a href="https://www.flickr.com/photos/mypubliclands/21869136895/" target="_blank"
-					>BLM Alaska</a
+				Photo: <a
+					href="https://www.flickr.com/photos/mypubliclands/21869136895/"
+					target="_blank"
+					rel="external">BLM Alaska</a
 				>
 			</div>
 		</div>

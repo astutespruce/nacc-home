@@ -17,6 +17,6 @@ if (browser && typeof SENTRY_DSN !== 'undefined') {
 			/^chrome-extension:\/\//i
 		]
 	})
-	// @ts-ignore
+	// @ts-expect-error Sentry is dynamically added to window
 	window.Sentry = Sentry
 }

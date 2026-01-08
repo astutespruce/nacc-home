@@ -1,19 +1,24 @@
 <script lang="ts">
-	import { browser } from '$app/environment'
-	import { resolve } from '$app/paths'
-	import { page } from '$app/state'
-
-	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
 	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
 	import InventoryIcon from '@lucide/svelte/icons/pencil-ruler'
 	import PrioritizationToolIcon from '@lucide/svelte/icons/search-check'
-	import UsersIcon from '@lucide/svelte/icons/users'
+	import TeamsIcon from '@lucide/svelte/icons/users'
+	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
 
-	import { PRIORITZATION_TOOL_URL } from '$lib/env'
-
+	import { resolve } from '$app/paths'
 	import Logo from '$lib/assets/images/nacc_logo_white.svg'
 
-	const isActivePath = (path: string) => browser && page.url.pathname.endsWith(path)
+	import { PRIORITZATION_TOOL_URL } from '$lib/env'
+	import Nav from './Nav.svelte'
+	import MobileNav from './MobileNav.svelte'
+
+	const navItems = [
+		{ url: '/inventory/', label: 'Inventory', icon: InventoryIcon },
+		{ url: PRIORITZATION_TOOL_URL, label: 'Prioritization Tool', icon: PrioritizationToolIcon },
+		{ url: '/teams/', label: 'Teams', icon: TeamsIcon },
+		{ url: '/training/', label: 'Training', icon: TrainingIcon },
+		{ url: '/faq/', label: 'FAQ', icon: FAQIcon }
+	]
 </script>
 
 <header
@@ -32,48 +37,6 @@
 			</a>
 		</div>
 	</div>
-	<nav class="flex flex-wrap items-center text-md leading-none text-white">
-		<div>
-			<div class={isActivePath('/inventory/') ? 'active' : null}>
-				<a href={resolve('/inventory/')}>
-					<InventoryIcon class="size-6" />
-					Inventory
-				</a>
-			</div>
-		</div>
-		<div>
-			<div>
-				<a href={PRIORITZATION_TOOL_URL} target="_blank">
-					<PrioritizationToolIcon class="size-6" />
-
-					<div class="xl:hidden">Tool</div>
-					<div class="hidden xl:block">Prioritization Tool</div>
-				</a>
-			</div>
-		</div>
-		<div>
-			<div class={isActivePath('/teams/') ? 'active' : null}>
-				<a href={resolve('/teams/')}>
-					<UsersIcon class="size-6" />
-					Teams</a
-				>
-			</div>
-		</div>
-		<div>
-			<div class={isActivePath('/training/') ? 'active' : null}>
-				<a href={resolve('/training/')}>
-					<TrainingIcon class="size-6" />
-					Training</a
-				>
-			</div>
-		</div>
-		<div>
-			<div class={isActivePath('/faq/') ? 'active' : null}>
-				<a href={resolve('/faq/')}>
-					<FAQIcon class="size-6" />
-					FAQ</a
-				>
-			</div>
-		</div>
-	</nav>
+	<Nav items={navItems} />
+	<MobileNav items={navItems} />
 </header>
