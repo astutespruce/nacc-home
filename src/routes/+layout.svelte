@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { browser } from '$app/environment'
 	import { afterNavigate } from '$app/navigation'
+	import { GOOGLE_ANALYTICS_ID } from '$lib/env'
 
-	import { Analytics, Footer, Header } from '$lib/components/layout'
+	import { Footer, Header } from '$lib/components/layout'
 
 	import '../app.css'
 
@@ -14,9 +16,34 @@
 			contentNode.scrollTop = 0
 		}
 	})
+
+	const handleGTAGLoad = () => {
+		if (!window.dataLayer) {
+			console.warn('GTAG not properly initialized')
+			return
+		}
+
+		console.debug('setting up GTAG')
+
+		function gtag() {
+			dataLayer.push(arguments)
+		}
+
+		gtag('js', new Date())
+		gtag('config', GOOGLE_ANALYTICS_ID)
+		window.gtag = gtag
+	}
 </script>
 
-<Analytics />
+<svelte:head>
+	{#if browser && GOOGLE_ANALYTICS_ID}
+		<script
+			async
+			src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ANALYTICS_ID}`}
+			onload={handleGTAGLoad}
+		></script>
+	{/if}
+</svelte:head>
 
 <div class="flex flex-col h-full w-full overflow-none">
 	<Header />

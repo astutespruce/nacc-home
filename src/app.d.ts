@@ -8,6 +8,18 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	// extend Window object to handle properties / functions added at runtime
+	interface Window {
+		// gtag dynamically defined at runtime by using google analytics
+		gtag?: (string, any?, any?) => void
+		dataLayer?: any[]
+
+		// sentry is dynamically defined at runtime
+		Sentry: {
+			captureException: (any) => void
+		}
+	}
 }
 
 export {}
