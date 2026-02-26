@@ -4,7 +4,7 @@
 	import NACCLogo from '$lib/assets/images/nacc_logo.svg'
 	import SARPLogo from '$lib/assets/images/sarp_logo.png'
 	import NFHPLogo from '$lib/assets/images/nfhp_logo.svg'
-	import { CONTACT_EMAIL, PRIORITZATION_TOOL_URL } from '$lib/env'
+	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
 </script>
 
 <svelte:head>
@@ -106,7 +106,7 @@
 				actionable information to assist barrier removal projects.
 				<br /><br />
 				Go to the
-				<a href={PRIORITZATION_TOOL_URL} target="_blank" rel="external"
+				<a href={PRIORITIZATION_TOOL_URL} target="_blank" rel="external"
 					>Inventory & Prioritization Tool</a
 				> to download and prioritize barriers for your area of interest.
 			</p>
