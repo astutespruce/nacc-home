@@ -130,15 +130,14 @@
 		<div>
 			<h2 class="text-4xl">Get involved!</h2>
 			<p class="mt-4">
-				You can help improve the inventory by sharing data, assisting with field reconnaissance to
-				evaluate the impact of aquatic barriers, joining an
+				You can help improve aquatic connectivity by surveying aquatic barriers for their impacts to
+				aquatic organisms, sharing data, joining an
 				<a href="https://www.americanrivers.org/aquatic-connectivity-groups/" target="blank">
 					Aquatic Connectivity Team
-				</a>, or even by reporting issues with the inventory data in this tool.
+				</a>, or even by reporting issues with the inventory of aquatic barriers.
 				<br />
 				<br />
-				<a href={`mailto:${CONTACT_EMAIL}`}>Contact us</a> to learn more about how you can help improve
-				this barrier inventory and tool.
+				<a href={`mailto:${CONTACT_EMAIL}`}>Contact us</a> to learn more about how you can help.
 			</p>
 		</div>
 

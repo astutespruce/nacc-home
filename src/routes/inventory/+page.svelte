@@ -2,7 +2,7 @@
 	import InventoryIcon from '$lib/assets/images/inventory.svg'
 	import summaryData from '$data/summary_stats.json'
 	import { formatNumber } from '$lib/util/format'
-	import { CONTACT_EMAIL, PRIORITZATION_TOOL_URL } from '$lib/env'
+	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
 
 	const {
 		dams,
@@ -88,7 +88,7 @@
 			network connectivity, landscape condition, and presence of threatened and endangered aquatic
 			organisms.
 			<a
-				href={`${PRIORITZATION_TOOL_URL}/regions/southeast/use_cases`}
+				href={`${PRIORITIZATION_TOOL_URL}/regions/southeast/use_cases`}
 				target="_blank"
 				rel="external"
 			>
@@ -97,7 +97,7 @@
 			</a>
 		</p>
 		<a
-			href={`${PRIORITZATION_TOOL_URL}/explore`}
+			href={`${PRIORITIZATION_TOOL_URL}/explore`}
 			target="_blank"
 			rel="external"
 			class="block text-white p-4 bg-blue-5 rounded-2xl border border-grey-2 no-underline"

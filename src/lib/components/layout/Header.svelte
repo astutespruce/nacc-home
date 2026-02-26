@@ -8,13 +8,13 @@
 	import { resolve } from '$app/paths'
 	import Logo from '$lib/assets/images/nacc_logo_white.svg'
 
-	import { PRIORITZATION_TOOL_URL } from '$lib/env'
+	import { PRIORITIZATION_TOOL_URL } from '$lib/env'
 	import Nav from './Nav.svelte'
 	import MobileNav from './MobileNav.svelte'
 
 	const navItems = [
 		{ url: '/inventory/', label: 'Inventory', icon: InventoryIcon },
-		{ url: PRIORITZATION_TOOL_URL, label: 'Prioritization Tool', icon: PrioritizationToolIcon },
+		{ url: PRIORITIZATION_TOOL_URL, label: 'Prioritization Tool', icon: PrioritizationToolIcon },
 		{ url: '/teams/', label: 'Teams', icon: TeamsIcon },
 		{ url: '/training/', label: 'Training', icon: TrainingIcon },
 		{ url: '/faq/', label: 'FAQ', icon: FAQIcon }
