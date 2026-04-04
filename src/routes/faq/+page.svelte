@@ -1,5 +1,6 @@
 <script lang="ts">
 	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
+	import { resolve } from '$app/paths'
 	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
 
 	const MAP_SERVICES = {
@@ -231,7 +232,7 @@
 				<a href="https://naacc.org/naacc_data_center_home.cfm" target="_blank" rel="external"
 					>NAACC Data Center</a
 				>. If your data was collected in partnership with SARP using the NAACC (now NACC) protocol,
-				<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a>for raw data, until the new merged system
+				<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a> for raw data, until the new merged system
 				is online. If your data was collected using a different methodology (Great Lakes Stream
 				Crossing Collaborative, or in the states of WA, OR, and CA) please contact the managers of
 				the collection system you used during your field surveys, or
@@ -267,6 +268,15 @@
 					based on networks that are cut by dams, waterfalls, and assessed crossings.
 				</li>
 			</ul>
+		</div>
+
+		<hr />
+
+		<div>
+			<h2>Where can I access field survey forms and manuals?</h2>
+			<p>
+				Go to the <a href={resolve('/survey-forms/')}><b>Field survey forms & manuals</b></a> page.
+			</p>
 		</div>
 	</div>
 </div>
