@@ -16,8 +16,7 @@
 		{ url: '/inventory/', label: 'Inventory', icon: InventoryIcon },
 		{ url: PRIORITIZATION_TOOL_URL, label: 'Prioritization Tool', icon: PrioritizationToolIcon },
 		{ url: '/teams/', label: 'Teams', icon: TeamsIcon },
-		{ url: '/training/', label: 'Training', icon: TrainingIcon },
-		{ url: '/faq/', label: 'FAQ', icon: FAQIcon }
+		{ url: '/training/', label: 'Training', icon: TrainingIcon }
 	]
 </script>
 

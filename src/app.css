@@ -15,6 +15,7 @@
 	--secondary: var(--primary);
 	--secondary-foreground: oklch(1 0 0);
 	--accent: oklch(0.7044 0.1704 54.51);
+	--destructive: oklch(0.5554 0.2577 29.23);
 
 	--link: var(--primary);
 
@@ -62,6 +63,7 @@
 	--color-secondary: var(--grey-1);
 	--color-secondary-foreground: var(--secondary-foreground);
 	--color-accent: var(--accent);
+	--color-destructive: var(--destructive);
 	--color-link: var(--link);
 
 	--color-border: var(--primary);
@@ -127,19 +129,6 @@
 	h3,
 	h4 {
 		font-weight: 700;
-	}
-
-	header nav > div + div {
-		@apply border-l border-grey-5;
-	}
-	header nav > div > div {
-		@apply mx-2 rounded border border-transparent px-3 py-2 hover:bg-white/20;
-	}
-	header nav > div > div.active {
-		@apply border-white bg-white/20;
-	}
-	header nav a {
-		@apply flex items-center gap-1.5 text-white! no-underline;
 	}
 }
 

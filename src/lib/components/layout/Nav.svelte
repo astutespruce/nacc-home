@@ -3,14 +3,15 @@
 	import { resolve } from '$app/paths'
 	import { page } from '$app/state'
 
-	import { Root, List, Item, Link } from '$lib/components/ui/navigation-menu'
+	import { Root, List, Item, Trigger, Link, Content } from '$lib/components/ui/navigation-menu'
+	import LearnMoreNav from './LearnMoreNav.svelte'
 
 	const { items } = $props()
 
 	const isActivePath = (path: string) => browser && page.url.pathname.endsWith(path)
 </script>
 
-<Root class="flex-none pr-1 hidden lg:block">
+<Root class="flex-none pr-1 hidden lg:block" viewport={false}>
 	<List>
 		{#each items as item (item.url)}
 			<Item>
@@ -27,5 +28,14 @@
 				{/if}
 			</Item>
 		{/each}
+
+		<Item>
+			<Trigger>Learn more</Trigger>
+			<Content>
+				<div class="w-[320px] p-2">
+					<LearnMoreNav />
+				</div>
+			</Content>
+		</Item>
 	</List>
 </Root>

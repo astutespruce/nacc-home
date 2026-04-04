@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths'
 	import InventoryIcon from '$lib/assets/images/inventory.svg'
 	import summaryData from '$data/summary_stats.json'
 	import { formatNumber } from '$lib/util/format'
@@ -197,6 +198,12 @@
 			</b>
 
 			<br /><br />
+			You can access field survey forms and manuals
+
+			<a href={resolve('/survey-forms/')}>here</a>.
+
+			<br /><br />
+
 			This inventory was originally developed within the Southeast as part of
 			<a
 				href="https://southeastaquatics.net/sarps-programs/aquatic-connectivity-program-act"

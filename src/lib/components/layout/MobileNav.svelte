@@ -6,6 +6,8 @@
 	import { page } from '$app/state'
 	import { Root, Trigger, Content } from '$lib/components/ui/sheet'
 
+	import LearnMoreNav from './LearnMoreNav.svelte'
+
 	const { items } = $props()
 	let isOpen = $state(false)
 
@@ -43,6 +45,15 @@
 					</a>
 				{/if}
 			{/each}
+
+			<div class="mt-6 border-t border-t-grey-2 pt-6">
+				<div class="flex gap-2">
+					<div class="font-bold">Learn more:</div>
+				</div>
+				<div class="mt-2">
+					<LearnMoreNav />
+				</div>
+			</div>
 		</nav>
 	</Content>
 </Root>

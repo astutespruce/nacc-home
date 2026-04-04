@@ -1,5 +1,6 @@
 <script lang="ts">
 	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
+	import { resolve } from '$app/paths'
 	import { CONTACT_EMAIL } from '$lib/env'
 </script>
 
@@ -51,6 +52,10 @@
 			<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a> for training outside the Northeast.
 			<br /><br />
 			We expect the new training system to be online in early 2026.
+			<br /><br />
+			You can access field survey forms and manuals
+
+			<a href={resolve('/survey-forms/')}>here</a>.
 		</p>
 		<div>
 			<enhanced:img
