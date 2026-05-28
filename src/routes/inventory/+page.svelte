@@ -86,7 +86,7 @@
 	</div>
 </div>
 <div class="flex justify-center py-2 bg-grey-1 border-b border-b-grey-2">
-	<Button href={`${PRIORITIZATION_TOOL_URL}/statistics/`} class="no-underline">
+	<Button href={`${PRIORITIZATION_TOOL_URL}/statistics/`} target="_blank" class="no-underline">
 		<ChartIcon class="size-4" />
 		See more statistics here</Button
 	>
