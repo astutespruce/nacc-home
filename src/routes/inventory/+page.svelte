@@ -1,6 +1,9 @@
 <script lang="ts">
+	import ChartIcon from '@lucide/svelte/icons/chart-no-axes-combined'
+
 	import { resolve } from '$app/paths'
 	import InventoryIcon from '$lib/assets/images/inventory.svg'
+	import { Button } from '$lib/components/ui/button'
 	import summaryData from '$data/summary_stats.json'
 	import { formatNumber } from '$lib/util/format'
 	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
@@ -8,6 +11,9 @@
 	const {
 		dams,
 		removed_dams,
+		lowhead_dams,
+		high_hazard_dams,
+		poor_condition_dams,
 		unsurveyed_road_crossings,
 		total_small_barriers,
 		small_barriers,
@@ -54,7 +60,13 @@
 					<b class="text-xl sm:text-2xl">{formatNumber(dams)}</b> inventoried dams
 				</div>
 				<div class="text-sm text-grey-8">
-					<b>{formatNumber(removed_dams)}</b> removed for conservation
+					<b>{formatNumber(high_hazard_dams)}</b> are rated as high hazards
+					<br />
+					<b>{formatNumber(poor_condition_dams)}</b> dams are in poor condition
+					<br />
+					<b>{formatNumber(lowhead_dams)}</b> known and likely lowhead dams
+					<br />
+					<b>{formatNumber(removed_dams)}</b> dams removed for conservation
 				</div>
 			</div>
 			<div>
@@ -72,6 +84,12 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div class="flex justify-center py-2 bg-grey-1 border-b border-b-grey-2">
+	<Button href={`${PRIORITIZATION_TOOL_URL}/statistics/`} class="no-underline">
+		<ChartIcon class="size-4" />
+		See more statistics here</Button
+	>
 </div>
 
 <div class="container pb-16">
