@@ -37,6 +37,14 @@
 		Frequently Asked Questions
 	</h1>
 
+	<p class="mt-12 text-xl">
+		Please also see the
+		<a href={`${PRIORITIZATION_TOOL_URL}/faq/`} target="_blank" rel="external">FAQ page</a> for the
+		<b>National Inventory and Prioritization Tool</b> for specific FAQs about exploring, downloading,
+		and prioritizing barriers for removal or mitigation.
+	</p>
+	<hr />
+
 	<div class="mt-8 [&_h2]:text-2xl [&_h2]:mb-2">
 		<div>
 			<h2>What is the National Aquatic Connectivity Collaborative?</h2>
@@ -238,6 +246,23 @@
 				the collection system you used during your field surveys, or
 				<a href={`mailto:${CONTACT_EMAIL}`}>contact us</a> for the appropriate contact person. Check back
 				for updates about the new merged NACC system and download links.
+			</p>
+		</div>
+
+		<hr />
+
+		<div>
+			<h2>How can I prioritize barriers for removal or mitigation?</h2>
+			<p>
+				Use the
+				<a href={`${PRIORITIZATION_TOOL_URL}/priority`} target="_blank" rel="external">
+					<b>Prioritize</b>
+				</a>
+				page in the <b>Inventory & Prioritization Tool</b> to select barriers for prioritization. You
+				can select different types of barriers, such as dams, surveyed road/stream crossings, or barriers
+				that impact small or large-bodied fish. You can then select barriers in your area of interest
+				and filter them based on a large number of value-added attributes. Once you've prioritized barriers,
+				you can download results.
 			</p>
 		</div>
 
