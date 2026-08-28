@@ -94,7 +94,10 @@
 				surveys. It provides essential information about the location, status, and characteristics
 				of potential aquatic barriers.
 				<br /><br />
-				<a href={resolve('/inventory')}>Learn more about the inventory</a>.
+				Go to the
+				<a href={PRIORITIZATION_TOOL_URL} target="_blank" rel="external">
+					Inventory & Prioritization Tool
+				</a> to summarize and download barriers for your area of interest.
 			</p>
 		</div>
 
@@ -106,9 +109,10 @@
 				actionable information to assist barrier removal projects.
 				<br /><br />
 				Go to the
-				<a href={PRIORITIZATION_TOOL_URL} target="_blank" rel="external"
-					>Inventory & Prioritization Tool</a
-				> to download and prioritize barriers for your area of interest.
+				<a href={PRIORITIZATION_TOOL_URL} target="_blank" rel="external">
+					Inventory & Prioritization Tool
+				</a>
+				to download and prioritize barriers for your area of interest.
 			</p>
 		</div>
 

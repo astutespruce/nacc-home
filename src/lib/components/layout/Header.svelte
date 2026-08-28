@@ -13,8 +13,11 @@
 	import MobileNav from './MobileNav.svelte'
 
 	const navItems = [
-		{ url: '/inventory/', label: 'Inventory', icon: InventoryIcon },
-		{ url: PRIORITIZATION_TOOL_URL, label: 'Prioritization Tool', icon: PrioritizationToolIcon },
+		{
+			url: PRIORITIZATION_TOOL_URL,
+			label: 'Inventory & Prioritization Tool',
+			icon: PrioritizationToolIcon
+		},
 		{ url: '/teams/', label: 'Teams', icon: TeamsIcon },
 		{ url: '/training/', label: 'Training', icon: TrainingIcon }
 	]
