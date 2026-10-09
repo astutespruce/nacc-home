@@ -21,26 +21,23 @@ nvm use
 Create a `.env.development` file with the following variables:
 
 ```bash
-PUBLIC_GOOGLE_ANALYTICS_ID=
-PUBLIC_SENTRY_DSN=
-PUBLIC_CONTACT_EMAIL=<email>
-PUBLIC_DEPLOY_ENV=local
-PUBLIC_PRIORITIZATION_TOOL_URL=<URL to prioritization tool or https://tool.aquaticbarriers.org>
-PUBLIC_TOOL_UI_DATA_PATH=<local path to UI data for prioritization tool>
+GOOGLE_ANALYTICS_ID=
+SENTRY_DSN=
+CONTACT_EMAIL=<email>
+DEPLOY_ENV=local
+PRIORITIZATION_TOOL_URL=<URL to prioritization tool or https://tool.aquaticbarriers.org>
 ```
 
 NOTE: some of these variables are intentionally blank in development mode.
-NOTE: the prioritization tool UI data path is used to load statistics on aquatic barriers into this application.
 
 Create a `.env.production` file with the following variables:
 
 ```bash
-PUBLIC_GOOGLE_ANALYTICS_ID=<google analytics ID>
-PUBLIC_SENTRY_DSN=<sentry DSN>
-PUBLIC_CONTACT_EMAIL=<email>
-PUBLIC_DEPLOY_ENV=local
-PUBLIC_PRIORITIZATION_TOOL_URL=<URL to prioritization tool or https://tool.aquaticbarriers.org>
-PUBLIC_TOOL_UI_DATA_PATH=<local path to UI data for prioritization tool>
+GOOGLE_ANALYTICS_ID=<google analytics ID>
+SENTRY_DSN=<sentry DSN>
+CONTACT_EMAIL=<email>
+DEPLOY_ENV=local
+PRIORITIZATION_TOOL_URL=<URL to prioritization tool or https://tool.aquaticbarriers.org>
 ```
 
 NOTE: these variables are only needed for testing the full static build and

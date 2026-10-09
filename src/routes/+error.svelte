@@ -1,14 +1,12 @@
 <script>
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
+	import { CONTACT_EMAIL } from '$app/env/public'
 	import { page } from '$app/state'
-	import { CONTACT_EMAIL } from '$lib/env'
 
 	console.error(page.status)
 	console.error(page.error)
 
-	// @ts-expect-error sentry dynamically added to window
 	if (page.status !== 404 && browser && window.Sentry) {
-		// @ts-expect-error sentry dynamically added to window
 		window.Sentry.captureException(page.error)
 	}
 </script>
@@ -20,11 +18,7 @@
 {#if page.status === 404}
 	<div class="relative w-full h-full">
 		<div class="hidden md:block absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
-			<enhanced:img
-				src="$lib/assets/images/25898720604_f380ee9709_k.jpg"
-				alt=""
-				class="brightness-80"
-			/>
+			<enhanced:img src="#images/25898720604_f380ee9709_k.jpg" alt="" class="brightness-80" />
 			<div class="sticky bottom-0">
 				<div class="absolute bottom-0 right-0 bg-black/65 text-white px-2 text-sm">
 					Photo: students looking for macroinvertebrates in Cartoogechaye Creek, NC |

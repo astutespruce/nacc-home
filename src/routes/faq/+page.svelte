@@ -1,7 +1,8 @@
 <script lang="ts">
 	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
+
+	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$app/env/public'
 	import { resolve } from '$app/paths'
-	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
 
 	const MAP_SERVICES = {
 		dams: 'https://services.arcgis.com/QVENGdaPbd4LUkLV/arcgis/rest/services/Aquatic_Barrier_Prioritization_Dams_v360/FeatureServer',
@@ -17,7 +18,7 @@
 </svelte:head>
 
 <div class="max-h-64 overflow-hidden relative">
-	<enhanced:img src="$lib/assets/images/kazuend-cCthPLHmrzI-unsplash.jpg" alt="" />
+	<enhanced:img src="#images/kazuend-cCthPLHmrzI-unsplash.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: <a

@@ -2,7 +2,7 @@
 	import SurveyFormsIcon from '@lucide/svelte/icons/clipboard-pen-line'
 
 	import { asset } from '$app/paths'
-	import { Alert } from '$lib/components/alert'
+	import { Alert } from '#lib/components/alert/index.js'
 </script>
 
 <svelte:head>
@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="max-h-64 overflow-hidden relative">
-	<enhanced:img src="$lib/assets/images/21854400142_f959bbc579_o.jpg" alt="" />
+	<enhanced:img src="#images/21854400142_f959bbc579_o.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: <a
@@ -32,20 +32,17 @@
 	<h2 class="text-2xl mt-8">Field survey forms</h2>
 	<ul class="mt-2 list-disc pl-6 [&>li+li]:mt-2">
 		<li>
-			<a href={asset('/documents/NACC_Survey_Form_Nontidal_Aquatic_09_2026.pdf')} target="_blank">
+			<a href={asset('documents/NACC_Survey_Form_Nontidal_Aquatic_09_2026.pdf')} target="_blank">
 				Non-tidal road/stream crossings field survey form (09/2026)
 			</a>
 		</li>
 		<li>
-			<a href={asset('/documents/NACC_Survey_Form_Tidal_Aquatic_2025.pdf')} target="_blank">
+			<a href={asset('documents/NACC_Survey_Form_Tidal_Aquatic_2025.pdf')} target="_blank">
 				Tidal road/stream crossings field survey form (2025)
 			</a>
 		</li>
 		<li>
-			<a
-				href={asset('/documents/NACC_Survey_Form_Terrestial_Passability_2025.pdf')}
-				target="_blank"
-			>
+			<a href={asset('documents/NACC_Survey_Form_Terrestial_Passability_2025.pdf')} target="_blank">
 				Terrestrial passage assessment field survey form (2025)
 			</a>
 		</li>
@@ -54,12 +51,12 @@
 	<h2 class="text-2xl mt-8">Field survey manuals</h2>
 	<ul class="mt-2 list-disc pl-6 [&>li+li]:mt-2">
 		<li>
-			<a href={asset('/documents/NACC_Manual_Nontidal_Aquatic_2025.pdf')} target="_blank">
+			<a href={asset('documents/NACC_Manual_Nontidal_Aquatic_2025.pdf')} target="_blank">
 				Non-tidal road/stream crossings field manual (2025)
 			</a>
 		</li>
 		<li>
-			<a href={asset('/documents/NACC_Manual_Combined_Aquatic_2025.pdf')} target="_blank">
+			<a href={asset('documents/NACC_Manual_Combined_Aquatic_2025.pdf')} target="_blank">
 				Combined tidal and non-tidal road/stream crossings field manual (2025)
 			</a>
 		</li>

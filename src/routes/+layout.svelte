@@ -1,10 +1,8 @@
 <script lang="ts">
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
+	import { GOOGLE_ANALYTICS_ID } from '$app/env/public'
 	import { afterNavigate } from '$app/navigation'
-	import { GOOGLE_ANALYTICS_ID } from '$lib/env'
-
-	import { Footer, Header } from '$lib/components/layout'
-
+	import { Footer, Header } from '#lib/components/layout/index.js'
 	import '../app.css'
 
 	let { children } = $props()
@@ -26,10 +24,13 @@
 		console.debug('setting up GTAG')
 
 		function gtag() {
+			// @ts-expect-error dataLayer is fine
 			dataLayer.push(arguments)
 		}
 
+		// @ts-expect-error this is fine
 		gtag('js', new Date())
+		// @ts-expect-error this is fine
 		gtag('config', GOOGLE_ANALYTICS_ID)
 		window.gtag = gtag
 	}

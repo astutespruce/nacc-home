@@ -1,8 +1,8 @@
 <script lang="ts">
-	import TeamIcon from '$lib/assets/images/team.svg'
-	import SARPLogo from '$lib/assets/images/sarp_logo.png'
-	import AmericanRiversLogo from '$lib/assets/images/american_rivers_logo.svg'
-	import TNCLogo from '$lib/assets/images/tnc_logo.svg'
+	import AmericanRiversLogo from '#images/american_rivers_logo.svg'
+	import SARPLogo from '#images/sarp_logo.png'
+	import TeamIcon from '#images/team.svg'
+	import TNCLogo from '#images/tnc_logo.svg'
 </script>
 
 <svelte:head>
@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="max-h-64 overflow-hidden relative">
-	<enhanced:img src="$lib/assets/images/30557776285_90ce5f6683_6k.jpg" alt="" />
+	<enhanced:img src="#images/30557776285_90ce5f6683_6k.jpg" alt="" />
 
 	<div class="absolute bottom-0 right-0 py-1 px-2 bg-black/75 text-white text-xs">
 		Photo: Biologists collect and move fish from a de-watered river reach as part of Cane River Dam
@@ -42,10 +42,7 @@
 			conservation to occur on the ground.
 		</p>
 		<div>
-			<enhanced:img
-				src="$lib/assets/images/16308836863_69be1a706b_o.jpg"
-				alt="Marion Ice Dam Removal"
-			/>
+			<enhanced:img src="#images/16308836863_69be1a706b_o.jpg" alt="Marion Ice Dam Removal" />
 			<div class="text-xs text-grey-8 text-right">
 				Photo: Marion Ice Dam Removal | <a
 					href="https://www.flickr.com/photos/usfwsnortheast/16308836863/in/album-72157651143991469"
@@ -57,7 +54,7 @@
 
 	<div class="sm:grid grid-cols-[1fr_1.5fr] gap-8 mt-16">
 		<div>
-			<enhanced:img src="$lib/assets/images/22730228429_5819b16fbf_o.jpg" alt="" />
+			<enhanced:img src="#images/22730228429_5819b16fbf_o.jpg" alt="" />
 			<div class="text-xs text-grey-8 text-right">
 				Photo: Fish monitoring of the Westecunk Creek barrier removal project | <a
 					href="https://www.flickr.com/photos/usfwsnortheast/22730228429/"
@@ -137,21 +134,18 @@
 		class="grid sm:grid-cols-3 gap-2 [&_img]:h-64 [&_img]:w-auto sm:[&_img]:h-auto sm:[&>div]:max-h-40 [&>div]:overflow-hidden"
 	>
 		<div>
-			<enhanced:img
-				src="$lib/assets/images/Arkansas_team.jpg"
-				alt="Arkansas Aquatic Connectivity Team"
-			/>
+			<enhanced:img src="#images/Arkansas_team.jpg" alt="Arkansas Aquatic Connectivity Team" />
 		</div>
 		<div>
 			<enhanced:img
-				src="$lib/assets/images/Georgia_team.jpg"
+				src="#images/Georgia_team.jpg"
 				alt="Georgia Aquatic Connectivity Team"
 				class="-mt-4"
 			/>
 		</div>
 		<div>
 			<enhanced:img
-				src="$lib/assets/images/Tennessee_team.jpg"
+				src="#images/Tennessee_team.jpg"
 				alt="Tennessee Aquatic Connectivity Team"
 				class="-mt-8"
 			/>

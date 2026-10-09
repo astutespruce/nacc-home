@@ -1,10 +1,9 @@
 <script lang="ts">
+	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$app/env/public'
 	import { resolve } from '$app/paths'
-
-	import NACCLogo from '$lib/assets/images/nacc_logo.svg'
-	import SARPLogo from '$lib/assets/images/sarp_logo.png'
-	import NFHPLogo from '$lib/assets/images/nfhp_logo.svg'
-	import { CONTACT_EMAIL, PRIORITIZATION_TOOL_URL } from '$lib/env'
+	import NACCLogo from '#images/nacc_logo.svg'
+	import NFHPLogo from '#images/nfhp_logo.svg'
+	import SARPLogo from '#images/sarp_logo.png'
 </script>
 
 <svelte:head>
@@ -147,7 +146,7 @@
 
 		<div>
 			<enhanced:img
-				src="$lib/assets/images/Roaring_River_dam_removal_-_All_the_Partners_-_DSC_0178.jpg"
+				src="#images/Roaring_River_dam_removal_-_All_the_Partners_-_DSC_0178.jpg"
 				alt="Roaring River dam removal partners"
 			/>
 			<div class="text-xs text-grey-8 leading-tight">

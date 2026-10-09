@@ -1,16 +1,13 @@
 <script lang="ts">
-	import FAQIcon from '@lucide/svelte/icons/circle-question-mark'
-	import InventoryIcon from '@lucide/svelte/icons/pencil-ruler'
+	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
 	import PrioritizationToolIcon from '@lucide/svelte/icons/search-check'
 	import TeamsIcon from '@lucide/svelte/icons/users'
-	import TrainingIcon from '@lucide/svelte/icons/clipboard-clock'
 
+	import { PRIORITIZATION_TOOL_URL } from '$app/env/public'
 	import { resolve } from '$app/paths'
-	import Logo from '$lib/assets/images/nacc_logo_white.svg'
-
-	import { PRIORITIZATION_TOOL_URL } from '$lib/env'
-	import Nav from './Nav.svelte'
+	import Logo from '#images/nacc_logo_white.svg'
 	import MobileNav from './MobileNav.svelte'
+	import Nav from './Nav.svelte'
 
 	const navItems = [
 		{

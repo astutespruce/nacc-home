@@ -1,11 +1,10 @@
 <script lang="ts">
 	import MenuIcon from '@lucide/svelte/icons/menu'
 
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 	import { resolve } from '$app/paths'
 	import { page } from '$app/state'
-	import { Root, Trigger, Content } from '$lib/components/ui/sheet'
-
+	import { Root, Trigger, Content } from '#lib/components/ui/sheet/index.js'
 	import LearnMoreNav from './LearnMoreNav.svelte'
 
 	const { items } = $props()
